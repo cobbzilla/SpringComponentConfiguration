@@ -1,0 +1,9 @@
+<component-set>
+  <components>
+    <component>
+      <role>org.codehaus.mojo.hibernate3.configuration.ComponentConfiguration</role>
+      <role-hint>springconfiguration</role-hint>
+      <implementation>example.hibernatetool.SpringComponentConfiguration</implementation>
+    </component>
+  </components>
+</component-set>
